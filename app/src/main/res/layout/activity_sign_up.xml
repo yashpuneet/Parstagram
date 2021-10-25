@@ -6,10 +6,10 @@
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".SignUpActivity">
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/etSUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -17,29 +17,18 @@
         android:hint="Username" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etSPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"/>
-
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Login" />
 
-    <Button
-        android:id="@+id/btnSignup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Sign Up" />
-
 </LinearLayout>
-
-
-
