@@ -36,7 +36,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='PostWalkthroughP2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='PostWalkthroughP2Refresh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='PostWalkthroughP2Refresh2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <img src='PostWalkthroughP220.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
