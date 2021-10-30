@@ -5,6 +5,10 @@ import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 @ParseClassName("Post")
 public class Post extends ParseObject
 {
@@ -42,4 +46,13 @@ public class Post extends ParseObject
     {
         put(KEY_USER, user);
     }
+
+    public String getDate()
+    {
+        Date date = getCreatedAt();
+        DateFormat df = new SimpleDateFormat("dd-MM-yyyy");
+        String reportDate = df.format(date);
+        return reportDate;
+    }
+
 }
